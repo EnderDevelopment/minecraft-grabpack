@@ -1,0 +1,13 @@
+name: GrabPack
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  grabpack:
+    description: Gives or removes the GrabPack hands.
+    usage: /grabpack [give|remove]
+    permission: grabpack.use
+permissions:
+  grabpack.use:
+    description: Allows use of the GrabPack.
+    default: true
